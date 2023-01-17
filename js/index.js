@@ -3,7 +3,7 @@ import { renderTeams } from "./ui/renderTeams.js";
 import { searchTeams } from "./ui/searchTeams.js";
 import { displayMessage } from "./ui/displayMessage.js";
 
-const url = "https://noroff.herokuapp.com/v1/nba-teams/teams";
+const url = "https://api.noroff.dev/api/v1/nba-teams";
 
 async function getTeams() {
     try {
